@@ -1,5 +1,6 @@
 # Workspace-only uploads and local files
 uploads/
+*.zip
 
 # Local development / editor files
 node_modules/

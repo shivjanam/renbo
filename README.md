@@ -58,6 +58,7 @@ Import the repository as a static project. Leave the build command blank and use
 ## Included interactions
 
 - Automatic hero carousel advancement every 3.6 seconds.
+- English, Hindi (हिंदी), and Hinglish language switcher with saved visitor preference.
 - Previous/next arrow buttons and keyboard arrow support.
 - Slide indicator buttons with accessible labels.
 - Touch/pointer swipe support on the carousel.
