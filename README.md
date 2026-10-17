@@ -73,7 +73,7 @@ Import the repository as a static project. Leave the build command blank and use
 
 - Dr. Manoj Kumar Sonkar and Dr. Manish Sonkar's profiles use photographs supplied with the project. Dr. Neepu Chaurasiya's card uses a neutral profile illustration rather than unrelated stock photography.
 - Doctor details are limited to the information supplied for this project.
-- The Google Maps action intentionally uses the supplied address as a search/directions destination rather than claiming a verified listing.
+- The Google Maps actions now open the exact location link supplied for Rainbow Hospital: <https://maps.app.goo.gl/UdDnmx3QA1t5T2tu5>.
 - No ratings, reviews, coordinates, accreditations, bed counts, founding dates, facilities, or clinical outcomes have been added.
 - The included hero and supporting images are relevant illustrative hospital-care photographs sourced through image search. They should be replaced with hospital-owned or properly licensed Rainbow Hospital photography before production publication, and the final team should retain the appropriate attribution/licence records for the chosen files.
 
