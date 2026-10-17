@@ -1,4 +1,4 @@
-/* Rainbow Hospital — lightweight interactions, no dependencies required. */
+/* RAINBOW HEALTH CLINIC AND HOSPITAL — lightweight interactions, no dependencies required. */
 document.addEventListener('DOMContentLoaded', () => {
   const root = document.documentElement;
   const header = document.querySelector('.site-header');
@@ -245,10 +245,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const translations = {
     en: {
       lang: 'en-IN',
-      title: 'Rainbow Hospital | Pediatric, Newborn, Gynecology & Obstetrics Care in Saidpur, Ghazipur',
-      description: 'Rainbow Hospital in Saidpur, Ghazipur provides compassionate pediatric, newborn, gynecology and obstetrics care for families across the area.',
-      ogTitle: 'Rainbow Hospital | Compassionate Care for Every Generation',
-      ogDescription: 'Pediatric, newborn, gynecology and obstetrics care in Saidpur, Ghazipur. Call Rainbow Hospital for appointments and directions.',
+      title: 'RAINBOW HEALTH CLINIC AND HOSPITAL | Pediatric, Newborn, Gynecology & Obstetrics Care in Saidpur, Ghazipur',
+      description: 'RAINBOW HEALTH CLINIC AND HOSPITAL in Saidpur, Ghazipur provides compassionate pediatric, newborn, gynecology and obstetrics care for families across the area.',
+      ogTitle: 'RAINBOW HEALTH CLINIC AND HOSPITAL | Compassionate Care for Every Generation',
+      ogDescription: 'Pediatric, newborn, gynecology and obstetrics care in Saidpur, Ghazipur. Call RAINBOW HEALTH CLINIC AND HOSPITAL for appointments and directions.',
       text: {
         '.nav-link[href="#home"]': 'Home',
         '.nav-link[href="#doctors"]': 'Doctors',
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.quick-link': 'Plan your visit',
         '.section-copy .eyebrow': 'A calmer healthcare experience',
         '.section-copy h2': 'Care that grows with your family',
-        '.section-copy p.lead': 'Rainbow Hospital is dedicated to providing accessible, compassionate healthcare for newborns, children, and women. Our doctors focus on patient care and helping families make informed healthcare decisions.',
+        '.section-copy p.lead': 'RAINBOW HEALTH CLINIC AND HOSPITAL is dedicated to providing accessible, compassionate healthcare for newborns, children, and women. Our doctors focus on patient care and helping families make informed healthcare decisions.',
         '.section-copy > p:nth-of-type(3)': 'From a child’s first check-up to women’s health and maternity guidance, our approach is simple: listen carefully, explain clearly, and support every family with respect.',
         '.text-link': 'Explore our services',
         '.visual-badge strong': 'Here for your family',
@@ -292,7 +292,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.doctors-section .section-heading .eyebrow': 'Meet your care team',
         '.doctors-section .section-heading h2': 'Meet Our Doctors',
         '.doctors-section .section-heading-note': 'Experienced clinicians committed to clear communication and compassionate patient care.',
-        '.doctor-card:nth-child(1) .doctor-role': 'Pediatrics',
+        '.doctor-card:nth-child(1) .doctor-role': 'Pediatrician & Neonatologist',
         '.doctor-card:nth-child(2) .doctor-role': 'Doctor profile',
         '.doctor-card:nth-child(3) .doctor-role': 'Women’s health',
         '.doctor-card:nth-child(1) .appointment-link': 'Call for Appointment',
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.doctor-note': 'Doctor profile images are intentionally represented with neutral illustrations rather than unrelated stock photography.',
         '.contact-section .section-heading .eyebrow': 'We are here to help',
         '.contact-section .section-heading h2': 'Plan your visit',
-        '.contact-section .section-heading-note': 'Call ahead for an appointment or use the address below to find Rainbow Hospital in Saidpur.',
+        '.contact-section .section-heading-note': 'Call ahead for an appointment or use the address below to find RAINBOW HEALTH CLINIC AND HOSPITAL in Saidpur.',
         '.contact-card .card-kicker': 'Visit us',
         '.contact-card h3': 'Contact information',
         '.contact-row:nth-child(1) strong': 'Address',
@@ -310,10 +310,10 @@ document.addEventListener('DOMContentLoaded', () => {
         '.contact-actions .button:nth-child(1)': 'Call 8528695991',
         '.contact-actions .button:nth-child(2)': 'Call 8090945179',
         '.map-topline > span:last-child': 'Find your way to us',
-        '.map-overlay h3': '200m north of Saidpur Kotwali',
-        '.map-overlay p': 'Near HR Restaurant, Saidpur - Ghazipur',
+        '.map-overlay h3': 'Near Saidpur Kotwali',
+        '.map-overlay p': 'HR Restaurant ke paas, Saidpur - Ghazipur',
         '.map-overlay .button-full': 'Get Directions',
-        '.map-overlay small': 'Opens the exact Google Maps location shared by Rainbow Hospital.',
+        '.map-overlay small': 'Opens the exact Google Maps location shared by RAINBOW HEALTH CLINIC AND HOSPITAL.',
         '.doctor-card:nth-child(3) .portrait-label': 'Profile illustration',
         '.emergency-banner strong': 'Emergency support',
         '.button-emergency': 'Emergency Call',
@@ -333,28 +333,28 @@ document.addEventListener('DOMContentLoaded', () => {
         '.emergency-fab small': '8528695991'
       },
       all: {
-        '.doctor-details dt': ['Qualification', 'Additional qualification', 'Specialty', 'Qualification', 'Specialty', 'Qualifications', 'Additional experience'],
-        '.doctor-details dd': ['MD Pediatrics', 'MBBS, DMCH (G.S.V.M. Kanpur)', 'Newborn & Child Disease Specialist', 'MBBS', 'Gynecology & Obstetrics', 'MBBS, DGO, MS (G.S.V.M. Kanpur)', 'Ex. MO - IMS BHU']
+        '.doctor-details dt': ['Qualifications', 'Specialty', 'Additional qualifications', 'Current posting', 'Qualification', 'Specialty', 'Qualifications', 'Additional experience'],
+        '.doctor-details dd': ['MBBS, DCH', 'Pediatrician & Neonatologist', 'MD (RCH), Lucknow; FBNC (IMS BHU)', 'Senior Consultant, SNCU, Medical College Ghazipur', 'MBBS', 'Gynecology & Obstetrics', 'MBBS, DGO, MS (G.S.V.M. Kanpur)', 'Ex. MO - IMS BHU']
       },
       html: {
-        '.contact-row:nth-child(1) p': '200m North of Saidpur Kotwali,<br>Near HR Restaurant,<br>Saidpur - Ghazipur',
+        '.contact-row:nth-child(1) p': 'Near Saidpur Kotwali,<br>HR Restaurant ke paas,<br>Saidpur - Ghazipur',
         '.contact-row:nth-child(3) p': 'Daily: 2:00 PM – 8:00 PM<br><span class="emergency-inline">Emergency: 24/7</span>',
         '.emergency-banner p': 'For urgent assistance, call <a href="tel:+918528695991">8528695991</a>. Alternate contact: <a href="tel:+918090945179">8090945179</a>.',
-        '.footer-column:nth-child(3) p': '200m North of Saidpur Kotwali,<br>Near HR Restaurant,<br>Saidpur - Ghazipur',
-        '.footer-bottom > span:first-child': '© <span id="current-year"></span> Rainbow Hospital. All rights reserved.'
+        '.footer-column:nth-child(3) p': 'Near Saidpur Kotwali,<br>HR Restaurant ke paas,<br>Saidpur - Ghazipur',
+        '.footer-bottom > span:first-child': '© <span id="current-year"></span> RAINBOW HEALTH CLINIC AND HOSPITAL. All rights reserved.'
       },
       attributes: {
-        'meta[name="description"]': ['content', 'Rainbow Hospital in Saidpur, Ghazipur provides compassionate pediatric, newborn, gynecology and obstetrics care for families across the area.'],
-        'meta[property="og:title"]': ['content', 'Rainbow Hospital | Compassionate Care for Every Generation'],
-        'meta[property="og:description"]': ['content', 'Pediatric, newborn, gynecology and obstetrics care in Saidpur, Ghazipur. Call Rainbow Hospital for appointments and directions.']
+        'meta[name="description"]': ['content', 'RAINBOW HEALTH CLINIC AND HOSPITAL in Saidpur, Ghazipur provides compassionate pediatric, newborn, gynecology and obstetrics care for families across the area.'],
+        'meta[property="og:title"]': ['content', 'RAINBOW HEALTH CLINIC AND HOSPITAL | Compassionate Care for Every Generation'],
+        'meta[property="og:description"]': ['content', 'Pediatric, newborn, gynecology and obstetrics care in Saidpur, Ghazipur. Call RAINBOW HEALTH CLINIC AND HOSPITAL for appointments and directions.']
       }
     },
     hi: {
       lang: 'hi-IN',
-      title: 'रेनबो हॉस्पिटल | सैदपुर, गाज़ीपुर में बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल',
-      description: 'सैदपुर, गाज़ीपुर में रेनबो हॉस्पिटल नवजात शिशुओं, बच्चों और महिलाओं के लिए संवेदनशील बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल प्रदान करता है।',
-      ogTitle: 'रेनबो हॉस्पिटल | हर पीढ़ी के लिए संवेदनशील देखभाल',
-      ogDescription: 'सैदपुर, गाज़ीपुर में बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल। अपॉइंटमेंट और दिशा-निर्देश के लिए रेनबो हॉस्पिटल को कॉल करें।',
+      title: 'RAINBOW HEALTH CLINIC AND HOSPITAL | सैदपुर, गाज़ीपुर में बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल',
+      description: 'सैदपुर, गाज़ीपुर में RAINBOW HEALTH CLINIC AND HOSPITAL नवजात शिशुओं, बच्चों और महिलाओं के लिए संवेदनशील बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल प्रदान करता है।',
+      ogTitle: 'RAINBOW HEALTH CLINIC AND HOSPITAL | हर पीढ़ी के लिए संवेदनशील देखभाल',
+      ogDescription: 'सैदपुर, गाज़ीपुर में बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल। अपॉइंटमेंट और दिशा-निर्देश के लिए RAINBOW HEALTH CLINIC AND HOSPITAL को कॉल करें।',
       text: {
         '.nav-link[href="#home"]': 'होम',
         '.nav-link[href="#doctors"]': 'डॉक्टर',
@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.quick-link': 'अपनी विज़िट की योजना बनाएँ',
         '.section-copy .eyebrow': 'एक शांत और बेहतर स्वास्थ्य अनुभव',
         '.section-copy h2': 'आपके परिवार के साथ बढ़ती देखभाल',
-        '.section-copy p.lead': 'रेनबो हॉस्पिटल नवजात शिशुओं, बच्चों और महिलाओं के लिए सुलभ और संवेदनशील स्वास्थ्य सेवा प्रदान करने के लिए समर्पित है। हमारे डॉक्टर मरीजों की देखभाल और परिवारों को सही स्वास्थ्य निर्णय लेने में मदद करने पर ध्यान देते हैं।',
+        '.section-copy p.lead': 'RAINBOW HEALTH CLINIC AND HOSPITAL नवजात शिशुओं, बच्चों और महिलाओं के लिए सुलभ और संवेदनशील स्वास्थ्य सेवा प्रदान करने के लिए समर्पित है। हमारे डॉक्टर मरीजों की देखभाल और परिवारों को सही स्वास्थ्य निर्णय लेने में मदद करने पर ध्यान देते हैं।',
         '.section-copy > p:nth-of-type(3)': 'बच्चे के पहले चेक-अप से लेकर महिलाओं के स्वास्थ्य और मातृत्व मार्गदर्शन तक, हमारा तरीका सरल है: ध्यान से सुनना, स्पष्ट समझाना और हर परिवार को सम्मान के साथ सहयोग देना।',
         '.text-link': 'हमारी सेवाएँ देखें',
         '.visual-badge strong': 'आपके परिवार के साथ',
@@ -398,7 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.doctors-section .section-heading .eyebrow': 'आपकी देखभाल टीम से मिलिए',
         '.doctors-section .section-heading h2': 'हमारे डॉक्टरों से मिलिए',
         '.doctors-section .section-heading-note': 'स्पष्ट संवाद और संवेदनशील मरीज देखभाल के लिए प्रतिबद्ध अनुभवी चिकित्सक।',
-        '.doctor-card:nth-child(1) .doctor-role': 'बाल रोग',
+        '.doctor-card:nth-child(1) .doctor-role': 'बाल रोग विशेषज्ञ एवं नवजात रोग विशेषज्ञ',
         '.doctor-card:nth-child(2) .doctor-role': 'डॉक्टर प्रोफ़ाइल',
         '.doctor-card:nth-child(3) .doctor-role': 'महिला स्वास्थ्य',
         '.doctor-card:nth-child(1) .appointment-link': 'अपॉइंटमेंट के लिए कॉल करें',
@@ -407,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.doctor-note': 'डॉक्टर प्रोफ़ाइल चित्रों में जानबूझकर तटस्थ चित्रों का उपयोग किया गया है, किसी असंबंधित स्टॉक फोटो का नहीं।',
         '.contact-section .section-heading .eyebrow': 'हम आपकी मदद के लिए यहाँ हैं',
         '.contact-section .section-heading h2': 'अपनी विज़िट की योजना बनाएँ',
-        '.contact-section .section-heading-note': 'अपॉइंटमेंट के लिए पहले कॉल करें या सैदपुर में रेनबो हॉस्पिटल तक पहुँचने के लिए नीचे दिया गया पता देखें।',
+        '.contact-section .section-heading-note': 'अपॉइंटमेंट के लिए पहले कॉल करें या सैदपुर में RAINBOW HEALTH CLINIC AND HOSPITAL तक पहुँचने के लिए नीचे दिया गया पता देखें।',
         '.contact-card .card-kicker': 'हमसे मिलिए',
         '.contact-card h3': 'संपर्क जानकारी',
         '.contact-row:nth-child(1) strong': 'पता',
@@ -416,10 +416,10 @@ document.addEventListener('DOMContentLoaded', () => {
         '.contact-actions .button:nth-child(1)': '8528695991 पर कॉल करें',
         '.contact-actions .button:nth-child(2)': '8090945179 पर कॉल करें',
         '.map-topline > span:last-child': 'हम तक पहुँचने का रास्ता',
-        '.map-overlay h3': 'सैदपुर कोतवाली से 200 मीटर उत्तर',
+        '.map-overlay h3': 'सैदपुर कोतवाली के पास',
         '.map-overlay p': 'एचआर रेस्टोरेंट के पास, सैदपुर - गाज़ीपुर',
         '.map-overlay .button-full': 'दिशा-निर्देश पाएँ',
-        '.map-overlay small': 'यह Rainbow Hospital द्वारा साझा की गई सटीक Google Maps लोकेशन खोलता है।',
+        '.map-overlay small': 'यह RAINBOW HEALTH CLINIC AND HOSPITAL द्वारा साझा की गई सटीक Google Maps लोकेशन खोलता है।',
         '.doctor-card:nth-child(3) .portrait-label': 'प्रोफ़ाइल चित्र',
         '.emergency-banner strong': 'आपातकालीन सहायता',
         '.button-emergency': 'आपातकालीन कॉल',
@@ -439,28 +439,28 @@ document.addEventListener('DOMContentLoaded', () => {
         '.emergency-fab small': '8528695991'
       },
       all: {
-        '.doctor-details dt': ['योग्यता', 'अतिरिक्त योग्यता', 'विशेषज्ञता', 'योग्यता', 'विशेषज्ञता', 'योग्यताएँ', 'अतिरिक्त अनुभव'],
-        '.doctor-details dd': ['MD Pediatrics', 'MBBS, DMCH (G.S.V.M. Kanpur)', 'नवजात एवं बाल रोग विशेषज्ञ', 'MBBS', 'स्त्री रोग एवं प्रसूति', 'MBBS, DGO, MS (G.S.V.M. Kanpur)', 'Ex. MO - IMS BHU']
+        '.doctor-details dt': ['योग्यताएँ', 'विशेषज्ञता', 'अतिरिक्त योग्यताएँ', 'वर्तमान पद', 'योग्यता', 'विशेषज्ञता', 'योग्यताएँ', 'अतिरिक्त अनुभव'],
+        '.doctor-details dd': ['MBBS, DCH', 'बाल रोग विशेषज्ञ एवं नवजात रोग विशेषज्ञ', 'MD (RCH), Lucknow; FBNC (IMS BHU)', 'सीनियर कंसल्टेंट, SNCU, मेडिकल कॉलेज गाज़ीपुर', 'MBBS', 'स्त्री रोग एवं प्रसूति', 'MBBS, DGO, MS (G.S.V.M. Kanpur)', 'Ex. MO - IMS BHU']
       },
       html: {
-        '.contact-row:nth-child(1) p': 'सैदपुर कोतवाली से 200 मीटर उत्तर,<br>एचआर रेस्टोरेंट के पास,<br>सैदपुर - गाज़ीपुर',
+        '.contact-row:nth-child(1) p': 'सैदपुर कोतवाली के पास,<br>एचआर रेस्टोरेंट के पास,<br>सैदपुर - गाज़ीपुर',
         '.contact-row:nth-child(3) p': 'दैनिक: दोपहर 2:00 – रात 8:00 बजे<br><span class="emergency-inline">आपातकाल: 24/7</span>',
         '.emergency-banner p': 'तत्काल सहायता के लिए <a href="tel:+918528695991">8528695991</a> पर कॉल करें। वैकल्पिक संपर्क: <a href="tel:+918090945179">8090945179</a>।',
-        '.footer-column:nth-child(3) p': 'सैदपुर कोतवाली से 200 मीटर उत्तर,<br>एचआर रेस्टोरेंट के पास,<br>सैदपुर - गाज़ीपुर',
-        '.footer-bottom > span:first-child': '© <span id="current-year"></span> रेनबो हॉस्पिटल। सर्वाधिकार सुरक्षित।'
+        '.footer-column:nth-child(3) p': 'सैदपुर कोतवाली के पास,<br>एचआर रेस्टोरेंट के पास,<br>सैदपुर - गाज़ीपुर',
+        '.footer-bottom > span:first-child': '© <span id="current-year"></span> RAINBOW HEALTH CLINIC AND HOSPITAL। सर्वाधिकार सुरक्षित।'
       },
       attributes: {
-        'meta[name="description"]': ['content', 'सैदपुर, गाज़ीपुर में रेनबो हॉस्पिटल नवजात शिशुओं, बच्चों और महिलाओं के लिए संवेदनशील बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल प्रदान करता है।'],
-        'meta[property="og:title"]': ['content', 'रेनबो हॉस्पिटल | हर पीढ़ी के लिए संवेदनशील देखभाल'],
-        'meta[property="og:description"]': ['content', 'सैदपुर, गाज़ीपुर में बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल। अपॉइंटमेंट और दिशा-निर्देश के लिए रेनबो हॉस्पिटल को कॉल करें।']
+        'meta[name="description"]': ['content', 'सैदपुर, गाज़ीपुर में RAINBOW HEALTH CLINIC AND HOSPITAL नवजात शिशुओं, बच्चों और महिलाओं के लिए संवेदनशील बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल प्रदान करता है।'],
+        'meta[property="og:title"]': ['content', 'RAINBOW HEALTH CLINIC AND HOSPITAL | हर पीढ़ी के लिए संवेदनशील देखभाल'],
+        'meta[property="og:description"]': ['content', 'सैदपुर, गाज़ीपुर में बाल, नवजात, स्त्री रोग एवं प्रसूति देखभाल। अपॉइंटमेंट और दिशा-निर्देश के लिए RAINBOW HEALTH CLINIC AND HOSPITAL को कॉल करें।']
       }
     },
     hinglish: {
       lang: 'en-IN',
-      title: 'Rainbow Hospital | Saidpur, Ghazipur mein Pediatric, Newborn, Gynecology aur Obstetrics Care',
-      description: 'Saidpur, Ghazipur mein Rainbow Hospital families ke liye compassionate pediatric, newborn, gynecology aur obstetrics care provide karta hai.',
-      ogTitle: 'Rainbow Hospital | Har generation ke liye compassionate care',
-      ogDescription: 'Saidpur, Ghazipur mein pediatric, newborn, gynecology aur obstetrics care. Appointment aur directions ke liye Rainbow Hospital ko call karein.',
+      title: 'RAINBOW HEALTH CLINIC AND HOSPITAL | Saidpur, Ghazipur mein Pediatric, Newborn, Gynecology aur Obstetrics Care',
+      description: 'Saidpur, Ghazipur mein RAINBOW HEALTH CLINIC AND HOSPITAL families ke liye compassionate pediatric, newborn, gynecology aur obstetrics care provide karta hai.',
+      ogTitle: 'RAINBOW HEALTH CLINIC AND HOSPITAL | Har generation ke liye compassionate care',
+      ogDescription: 'Saidpur, Ghazipur mein pediatric, newborn, gynecology aur obstetrics care. Appointment aur directions ke liye RAINBOW HEALTH CLINIC AND HOSPITAL ko call karein.',
       text: {
         '.nav-link[href="#home"]': 'Home',
         '.nav-link[href="#doctors"]': 'Doctors',
@@ -483,7 +483,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.quick-link': 'Apni visit plan karein',
         '.section-copy .eyebrow': 'Shaant aur behtar healthcare experience',
         '.section-copy h2': 'Aapke parivaar ke saath badhti care',
-        '.section-copy p.lead': 'Rainbow Hospital newborns, bachchon aur mahilaon ke liye accessible aur compassionate healthcare dene ke liye dedicated hai. Hamare doctors patient care aur families ko informed healthcare decisions lene mein help karne par focus karte hain.',
+        '.section-copy p.lead': 'RAINBOW HEALTH CLINIC AND HOSPITAL newborns, bachchon aur mahilaon ke liye accessible aur compassionate healthcare dene ke liye dedicated hai. Hamare doctors patient care aur families ko informed healthcare decisions lene mein help karne par focus karte hain.',
         '.section-copy > p:nth-of-type(3)': 'Bachche ke pehle check-up se lekar women’s health aur maternity guidance tak, hamara approach simple hai: dhyan se sunna, clearly samjhana aur har family ko respect ke saath support karna.',
         '.text-link': 'Hamari services dekhein',
         '.visual-badge strong': 'Aapke parivaar ke saath',
@@ -504,7 +504,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.doctors-section .section-heading .eyebrow': 'Apni care team se miliye',
         '.doctors-section .section-heading h2': 'Meet Our Doctors',
         '.doctors-section .section-heading-note': 'Clear communication aur compassionate patient care ke liye committed experienced clinicians.',
-        '.doctor-card:nth-child(1) .doctor-role': 'Pediatrics',
+        '.doctor-card:nth-child(1) .doctor-role': 'Pediatrician & Neonatologist',
         '.doctor-card:nth-child(2) .doctor-role': 'Doctor profile',
         '.doctor-card:nth-child(3) .doctor-role': 'Women’s health',
         '.doctor-card:nth-child(1) .appointment-link': 'Appointment ke liye call karein',
@@ -513,7 +513,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.doctor-note': 'Doctor profile images mein jaanbujhkar neutral illustrations use ki gayi hain, kisi unrelated stock photo ka use nahi hua hai.',
         '.contact-section .section-heading .eyebrow': 'Hum aapki help ke liye yahan hain',
         '.contact-section .section-heading h2': 'Apni visit plan karein',
-        '.contact-section .section-heading-note': 'Appointment ke liye pehle call karein ya Saidpur mein Rainbow Hospital tak pahunchne ke liye neeche diya address use karein.',
+        '.contact-section .section-heading-note': 'Appointment ke liye pehle call karein ya Saidpur mein RAINBOW HEALTH CLINIC AND HOSPITAL tak pahunchne ke liye neeche diya address use karein.',
         '.contact-card .card-kicker': 'Visit karein',
         '.contact-card h3': 'Contact information',
         '.contact-row:nth-child(1) strong': 'Address',
@@ -522,10 +522,10 @@ document.addEventListener('DOMContentLoaded', () => {
         '.contact-actions .button:nth-child(1)': '8528695991 par call karein',
         '.contact-actions .button:nth-child(2)': '8090945179 par call karein',
         '.map-topline > span:last-child': 'Yahan tak pahunchne ka raasta',
-        '.map-overlay h3': 'Saidpur Kotwali se 200m north',
+        '.map-overlay h3': 'Saidpur Kotwali ke paas',
         '.map-overlay p': 'HR Restaurant ke paas, Saidpur - Ghazipur',
         '.map-overlay .button-full': 'Directions paayen',
-        '.map-overlay small': 'Yeh Rainbow Hospital dwara share ki gayi exact Google Maps location kholta hai.',
+        '.map-overlay small': 'Yeh RAINBOW HEALTH CLINIC AND HOSPITAL dwara share ki gayi exact Google Maps location kholta hai.',
         '.doctor-card:nth-child(3) .portrait-label': 'Profile illustration',
         '.emergency-banner strong': 'Emergency support',
         '.button-emergency': 'Emergency Call',
@@ -545,20 +545,20 @@ document.addEventListener('DOMContentLoaded', () => {
         '.emergency-fab small': '8528695991'
       },
       all: {
-        '.doctor-details dt': ['Qualification', 'Additional qualification', 'Specialty', 'Qualification', 'Specialty', 'Qualifications', 'Additional experience'],
-        '.doctor-details dd': ['MD Pediatrics', 'MBBS, DMCH (G.S.V.M. Kanpur)', 'Newborn aur Child Disease Specialist', 'MBBS', 'Gynecology aur Obstetrics', 'MBBS, DGO, MS (G.S.V.M. Kanpur)', 'Ex. MO - IMS BHU']
+        '.doctor-details dt': ['Qualifications', 'Specialty', 'Additional qualifications', 'Current posting', 'Qualification', 'Specialty', 'Qualifications', 'Additional experience'],
+        '.doctor-details dd': ['MBBS, DCH', 'Pediatrician aur Neonatologist', 'MD (RCH), Lucknow; FBNC (IMS BHU)', 'Senior Consultant, SNCU, Medical College Ghazipur', 'MBBS', 'Gynecology aur Obstetrics', 'MBBS, DGO, MS (G.S.V.M. Kanpur)', 'Ex. MO - IMS BHU']
       },
       html: {
-        '.contact-row:nth-child(1) p': 'Saidpur Kotwali se 200m north,<br>HR Restaurant ke paas,<br>Saidpur - Ghazipur',
+        '.contact-row:nth-child(1) p': 'Saidpur Kotwali ke paas,<br>HR Restaurant ke paas,<br>Saidpur - Ghazipur',
         '.contact-row:nth-child(3) p': 'Daily: 2:00 PM – 8:00 PM<br><span class="emergency-inline">Emergency: 24/7</span>',
         '.emergency-banner p': 'Urgent help ke liye <a href="tel:+918528695991">8528695991</a> par call karein. Alternate contact: <a href="tel:+918090945179">8090945179</a>.',
-        '.footer-column:nth-child(3) p': 'Saidpur Kotwali se 200m north,<br>HR Restaurant ke paas,<br>Saidpur - Ghazipur',
-        '.footer-bottom > span:first-child': '© <span id="current-year"></span> Rainbow Hospital. All rights reserved.'
+        '.footer-column:nth-child(3) p': 'Saidpur Kotwali ke paas,<br>HR Restaurant ke paas,<br>Saidpur - Ghazipur',
+        '.footer-bottom > span:first-child': '© <span id="current-year"></span> RAINBOW HEALTH CLINIC AND HOSPITAL. All rights reserved.'
       },
       attributes: {
-        'meta[name="description"]': ['content', 'Saidpur, Ghazipur mein Rainbow Hospital families ke liye compassionate pediatric, newborn, gynecology aur obstetrics care provide karta hai.'],
-        'meta[property="og:title"]': ['content', 'Rainbow Hospital | Har generation ke liye compassionate care'],
-        'meta[property="og:description"]': ['content', 'Saidpur, Ghazipur mein pediatric, newborn, gynecology aur obstetrics care. Appointment aur directions ke liye Rainbow Hospital ko call karein.']
+        'meta[name="description"]': ['content', 'Saidpur, Ghazipur mein RAINBOW HEALTH CLINIC AND HOSPITAL families ke liye compassionate pediatric, newborn, gynecology aur obstetrics care provide karta hai.'],
+        'meta[property="og:title"]': ['content', 'RAINBOW HEALTH CLINIC AND HOSPITAL | Har generation ke liye compassionate care'],
+        'meta[property="og:description"]': ['content', 'Saidpur, Ghazipur mein pediatric, newborn, gynecology aur obstetrics care. Appointment aur directions ke liye RAINBOW HEALTH CLINIC AND HOSPITAL ko call karein.']
       }
     }
   };

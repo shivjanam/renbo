@@ -1,6 +1,6 @@
-# Rainbow Hospital — static website
+# RAINBOW HEALTH CLINIC AND HOSPITAL — static website
 
-A responsive, dependency-free hospital website for Rainbow Hospital in Saidpur, Ghazipur, Uttar Pradesh. It is built with semantic HTML, CSS3, and vanilla JavaScript so it can be hosted on GitHub Pages, Netlify, Vercel, or any static web server.
+A responsive, dependency-free hospital website for RAINBOW HEALTH CLINIC AND HOSPITAL in Saidpur, Ghazipur, Uttar Pradesh. It is built with semantic HTML, CSS3, and vanilla JavaScript so it can be hosted on GitHub Pages, Netlify, Vercel, or any static web server.
 
 ## Project structure
 
@@ -71,11 +71,13 @@ Import the repository as a static project. Leave the build command blank and use
 
 ## Content and trust notes
 
-- Dr. Manoj Kumar Sonkar and Dr. Manish Sonkar's profiles use photographs supplied with the project. Dr. Neepu Chaurasiya's card uses a neutral profile illustration rather than unrelated stock photography.
+- Dr. Manoj Kumar Sonker's card now lists MBBS, DCH, Pediatrician & Neonatologist, MD (RCH), Lucknow, FBNC (IMS BHU), and the supplied current posting information.
+- Dr. Manoj Kumar Sonker and Dr. Manish Sonkar's profiles use photographs supplied with the project. Dr. Neepu Chaurasiya's card uses a neutral profile illustration rather than unrelated stock photography.
 - Doctor details are limited to the information supplied for this project.
-- The Google Maps actions now open the exact location link supplied for Rainbow Hospital: <https://maps.app.goo.gl/UdDnmx3QA1t5T2tu5>.
+- The displayed address is: Near Saidpur Kotwali, HR Restaurant ke paas, Saidpur - Ghazipur.
+- The Google Maps actions now open the exact location link supplied for RAINBOW HEALTH CLINIC AND HOSPITAL: <https://maps.app.goo.gl/UdDnmx3QA1t5T2tu5>.
 - No ratings, reviews, coordinates, accreditations, bed counts, founding dates, facilities, or clinical outcomes have been added.
-- The included hero and supporting images are relevant illustrative hospital-care photographs sourced through image search. They should be replaced with hospital-owned or properly licensed Rainbow Hospital photography before production publication, and the final team should retain the appropriate attribution/licence records for the chosen files.
+- The included hero and supporting images are relevant illustrative hospital-care photographs sourced through image search. They should be replaced with hospital-owned or properly licensed RAINBOW HEALTH CLINIC AND HOSPITAL photography before production publication, and the final team should retain the appropriate attribution/licence records for the chosen files.
 
 ## Image source references
 
@@ -86,7 +88,7 @@ The downloaded files are local so the preview and static deployment do not depen
 - `examination-room.jpg`: Pexels medical center search: <https://www.pexels.com/search/medical%20center/>
 - `patient-room.jpg`: Pexels hospital room search: <https://www.pexels.com/search/hospital%20room/>
 - `pediatric-care.jpg`: Pexels child health care search: <https://www.pexels.com/search/child%20health%20care/>
-- `doctor-manoj.png`: supplied by the project owner for Dr. Manoj Kumar Sonkar's profile.
+- `doctor-manoj.png`: supplied by the project owner for Dr. Manoj Kumar Sonker's profile.
 - `doctor-manish.png`: supplied by the project owner for Dr. Manish Sonkar's profile.
 
-Always confirm the final licence and usage terms for each selected file before a public launch. If Rainbow Hospital supplies its own building, reception, treatment-room, and pediatric-care photographs, replacing the files in `assets/images/` requires no code changes.
+Always confirm the final licence and usage terms for each selected file before a public launch. If RAINBOW HEALTH CLINIC AND HOSPITAL supplies its own building, reception, treatment-room, and pediatric-care photographs, replacing the files in `assets/images/` requires no code changes.

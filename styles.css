@@ -203,7 +203,7 @@ p { color: var(--ink-soft); }
 .brand-mark svg { width: 29px; height: 29px; fill: none; stroke: currentColor; stroke-width: 4.2; stroke-linecap: round; stroke-linejoin: round; }
 .brand-mark circle { fill: var(--gold); stroke: none; }
 .brand-copy { display: grid; gap: 0; line-height: 1.1; }
-.brand-copy strong { color: var(--blue-deep); font-size: .99rem; letter-spacing: -.025em; }
+.brand-copy strong { display: block; max-width: 245px; color: var(--blue-deep); font-size: .8rem; line-height: 1.08; letter-spacing: -.035em; }
 .brand-copy small { margin-top: 4px; color: #7792a0; font-size: .66rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
 .primary-nav { display: flex; align-items: center; gap: 5px; }
 .nav-link { position: relative; padding: 10px 13px; color: #527084; font-size: .88rem; font-weight: 700; transition: color .2s ease; }
@@ -244,7 +244,7 @@ p { color: var(--ink-soft); }
 .hero-shade { position: absolute; z-index: 1; inset: 0; pointer-events: none; background: linear-gradient(90deg, rgba(5, 33, 51, .92) 0%, rgba(5, 39, 59, .78) 35%, rgba(7, 50, 67, .34) 74%, rgba(6, 42, 55, .54) 100%), linear-gradient(0deg, rgba(4, 32, 47, .54), transparent 45%); }
 .hero-content { position: absolute; z-index: 2; inset: 0; display: flex; align-items: center; padding-top: 15px; }
 .hero-copy { max-width: 650px; margin-top: -34px; }
-.hero h1 { color: #fff; font-size: clamp(3.4rem, 7vw, 6.35rem); text-shadow: 0 7px 24px rgba(0, 19, 33, .17); }
+.hero h1 { max-width: 780px; color: #fff; font-size: clamp(2.75rem, 5.2vw, 5.15rem); line-height: 1.02; text-shadow: 0 7px 24px rgba(0, 19, 33, .17); }
 .hero-tagline { margin: 0 0 14px; color: #d8f7f5; font-size: clamp(1.25rem, 2vw, 1.7rem); font-weight: 500; letter-spacing: -.02em; }
 .hero-description { max-width: 510px; margin-bottom: 30px; color: rgba(255, 255, 255, .83); font-size: 1.05rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
@@ -369,7 +369,7 @@ p { color: var(--ink-soft); }
 .map-pin { position: absolute; z-index: 3; top: 34%; left: 50%; display: grid; place-items: center; width: 51px; height: 51px; border: 7px solid rgba(255, 255, 255, .7); border-radius: 50% 50% 50% 4px; color: #fff; background: var(--coral); box-shadow: 0 7px 18px rgba(102, 53, 62, .25); transform: rotate(-45deg) translate(-50%, -50%); }
 .map-pin .icon { width: 22px; height: 22px; transform: rotate(45deg); }
 .map-label { position: absolute; z-index: 2; padding: 4px 7px; border-radius: 6px; color: #377b83; background: rgba(255, 255, 255, .64); font-size: .62rem; font-weight: 800; }
-.label-hospital { top: 27%; left: 53%; }
+.label-hospital { top: 27%; left: 53%; max-width: 155px; line-height: 1.2; }
 .label-kotwali { top: 51%; left: 20%; }
 .label-restaurant { top: 67%; right: 13%; }
 .map-overlay { position: absolute; z-index: 4; right: 27px; bottom: 27px; left: 27px; padding: 23px 24px 21px; border: 1px solid rgba(255, 255, 255, .65); border-radius: 18px; background: rgba(11, 76, 93, .87); box-shadow: 0 12px 26px rgba(22, 81, 90, .2); backdrop-filter: blur(8px); }
@@ -438,7 +438,7 @@ p { color: var(--ink-soft); }
   .language-switcher { justify-self: center; margin-top: 4px; }
   .hero-carousel { min-height: 630px; height: 78vh; }
   .hero-copy { max-width: 570px; }
-  .hero h1 { font-size: clamp(3.2rem, 9vw, 5rem); }
+  .hero h1 { font-size: clamp(2.65rem, 7.5vw, 4.5rem); }
   .service-strip-inner { grid-template-columns: repeat(2, 1fr); padding-block: 19px; }
   .quick-link { justify-self: start; }
   .intro-grid { grid-template-columns: 1fr; }
@@ -463,13 +463,13 @@ p { color: var(--ink-soft); }
   .section-heading-note { max-width: 520px; margin-top: 16px; font-size: .9rem; }
   .brand-mark { width: 40px; height: 40px; border-radius: 12px; }
   .brand-mark svg { width: 25px; height: 25px; }
-  .brand-copy strong { font-size: .87rem; }
+  .brand-copy strong { max-width: 190px; font-size: .71rem; line-height: 1.08; }
   .brand-copy small { font-size: .58rem; }
   .hero-carousel { min-height: 660px; height: 84vh; }
   .hero-shade { background: linear-gradient(90deg, rgba(5, 33, 51, .91), rgba(5, 40, 57, .64)), linear-gradient(0deg, rgba(4, 32, 47, .73), transparent 55%); }
   .hero-content { align-items: flex-start; padding-top: 112px; }
   .hero-copy { margin-top: 0; }
-  .hero h1 { margin-bottom: 11px; font-size: clamp(2.9rem, 15vw, 4.2rem); }
+  .hero h1 { margin-bottom: 11px; font-size: clamp(2.25rem, 11vw, 3.45rem); }
   .hero-tagline { font-size: 1.17rem; }
   .hero-description { margin-bottom: 24px; font-size: .94rem; }
   .hero-actions { gap: 9px; }
